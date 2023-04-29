@@ -10,76 +10,74 @@
 </head>
 
 <body class="dark">
-    <h1>Hi, I'm Luna</h1>
-    <br>
-    <a href="mailto:SAMPLETEXT@SAMPLE.COM">SAMPLETEXT ✉️</a>
-    <br>
-    <p>Lorem ipsum dolor sit amet
-        <a href="https://example.com">Lorem ipsum dolor sit amet</a>
-    </p>
-    <br>
-    <p>Lorem ipsum dolor sit amet <a href="https://example.com">Lorem ipsum dolor sit amet</a></P>
+
+    <div class="left">
+        
+        <br>
+
+        <h1>hey, i'm luna</h1>
+
+        <div id="links">
+            <a href="#about" id="links_ab">about </a>
+            <p class="inline_p" >|</p>
+            <a href="#projects" id="links_pr"> projects </a>
+            <p class="inline_p" >|</p>
+            <a href="#contact_me" id="links_co"> contact me</a>
+        </div>
+        
+    </div>
+
+
+    <div id="info">
+
+        <div id="about">
+            <br />
+            <h1> about me</h1>
+            <p>hey, i'm luna; just some random furry developer that barely knows how to do anything</p>
+            <p>dabbles in bash, javascript, python and c</p>
+            <p>she/they, <a href="https://en.pronouns.page/@LunaOSS">🔗 more info</a></p>
+            <br />
+        </div>
+
+        <div id="projects">
+            <br />
+            <h1> projects</h1>
+
+            <h2><a href="https://github.com/usrbinluna/fusee-gelee-gui">fusée-gelée-gui</a></h2>
+            <p>a payload loader for the fusée gelée exploit on the nintendo switch</p>
+            <br />
+
+            <h2><a href="https://github.com/usrbinluna/device_lenovo_achilles6">device_lenovo_achilles6</a></h2>
+            <p>a (currently) non-functional, android device tree for the lenovo X606 series</p>
+            <br />
+
+            <h2><a href="https://github.com/usrbinluna/howlOS">howlOS</a></h2>
+            <p>an abandoned attempt at making an operating system with the limine bootloader</p>
+
+            <br />
+        </div>
+
+        <div id="contact_me">
+            <br />
+            <h1>contact me</h1>
+
+            <h2>discord</h2>
+            <p>𓍊𓋼 Luna 𓋼𓍊#4558</p>
+            <br />
+
+            <h2>matrix</h2>
+            <p>luna:envs.net</p>
+            <br />
+        </div>
+
+    </div>
+
+
     <div class="animated-background"></div>
 
 </body>
+
 <script src="animatedlines.js" type="text/javascript"></script>
-<style>
-    a {
-        color: rgb(185, 185, 185);
-        text-decoration: none;
-    }
-    
-    a:hover {
-        color: #757575;
-    }
-    
-    a:active {
-        color: black;
-    }
-    
-    body {
-        --color-bg: #0e0e0f;
-        --color-bg-2: #141414;
-        --color-bg-3: #800180;
-        --gradient-margin: 800px;
-        font-family: 'Consolas', monospace;
-        color: white
-    }
-    
-    html,
-    body {
-        height: 100%;
-        margin: 0;
-    }
-    
-    body {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    
-    body {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        height: 100vh;
-    }
-    
-    p {
-        font-size: 20px;
-    }
-    
-    .animated-background {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: calc(100% + var(--gradient-margin));
-        background: radial-gradient( ellipse at 500% 0%, var(--color-bg) 50%, var(--color-bg-2) 80%, var(--color-bg-3) 100%);
-        z-index: -1;
-        transform: translateY(calc(var(--gradient-margin) * -1));
-    }
-</style>
+<link rel="stylesheet" href="style.css">
 
 </html>
