@@ -24,7 +24,7 @@ body {
     --color-bg: #0e0e0f;
     --color-bg-3: #3d0794;
     --color-bg-2: #841d9e;
-    --gradient-margin: 160%;
+    --gradient-margin: 180%;
     font-family: 'Consolas', monospace;
     color: white
 }
