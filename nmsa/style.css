@@ -1,0 +1,188 @@
+a {
+    color: rgb(185, 185, 185);
+    text-decoration: none;
+}
+
+a:hover {
+    color: #e9e9e9;
+}
+
+a:active {
+    color: #a5a5a5;
+}
+
+a, a:focus{
+    color: inherit;
+    border: inherit;
+    outline:none;
+} 
+a:link{
+    text-decoration: none;
+}
+
+body {
+    --color-bg: #0e0e0f;
+    --color-bg-3: #03197a;
+    --color-bg-2: #4484b8;
+    --gradient-margin: 180%;
+    font-family: 'Consolas', monospace;
+    color: white
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
+p {
+    font-size: 20px;
+}
+
+.animated-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: calc(100% + var(--gradient-margin));
+    background: radial-gradient( ellipse at 500% 0%, var(--color-bg) 50%, var(--color-bg-2) 80%, var(--color-bg-3) 100%);
+    z-index: -1;
+    transform: translateZ(calc(var(--gradient-margin) * -1));
+}
+
+/* yes */
+
+#links_ab {
+    display: inline;
+}
+#links_pr {
+    display: inline;
+}
+#links_co {
+    display: inline;
+}
+
+#links {
+    margin-left: 5px;
+    font-size: 20pt;
+}
+
+h1 {
+    font-size: 45pt;
+}
+
+.inline_p {
+    display: inline-block;
+}
+
+.longbreak {
+    line-height: 500pt;
+}
+
+.left {
+    margin-top: 75%;
+    margin-left: 150px;
+
+}
+
+.left br {
+    display: block;
+    line-height: 500px;
+    margin-bottom: 15%;
+}
+
+#info {
+    margin-top: 100px;
+    margin-left: 150px;
+}
+
+#info h1 {
+    font-size: 22.5pt;
+}
+
+#info p {
+    margin-left: 25px;
+}
+
+#info a {
+    color: #8ac3e9;
+}
+
+/* square box for about */
+#about {
+    border: 5px solid #78d9e6;
+    border-radius: 25px;
+    width: 70%;
+    margin-bottom: 25%;
+    backdrop-filter: blur(20px);
+}
+
+#about h1 {
+    margin-left: 25px;
+    font-size: 22.5pt   
+}
+
+#about p {
+    margin-left: 25px;
+    color: #d7d7d7;
+}
+
+/* square box for projects */
+#projects {
+    border: 5px solid #78d9e6;
+    border-radius: 25px;
+    width: 70%;
+    backdrop-filter: blur(20px);
+    margin-bottom: 7.5%;
+}
+
+#projects h1 {
+    margin-left: 25px;
+    font-size: 22.5pt   
+}
+
+#projects h2 {
+    margin-left: 20px;
+    font-size: 20pt   
+}
+
+#projects p {
+    margin-left: 25px;
+    color: #d7d7d7;
+}
+
+/* square box for contact_me */
+#contact_me {
+    border: 5px solid #78d9e6;
+    border-radius: 25px;
+    width: 70%;
+    backdrop-filter: blur(20px);
+    margin-bottom: 7.5%;
+}
+
+#contact_me h1 {
+    margin-left: 25px;
+    font-size: 22.5pt   
+}
+
+#contact_me h2 {
+    margin-left: 20px;
+    font-size: 20pt   
+}
+
+#contact_me p {
+    margin-left: 25px;
+    color: #d7d7d7;
+}
