@@ -26,7 +26,8 @@ body {
     --color-bg-2: #841d9e;
     --gradient-margin: 250%;
     font-family: 'Consolas', monospace;
-    color: white
+    color: white;
+    background-color: #3e1449;
 }
 
 html,
